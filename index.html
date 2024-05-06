@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zen</title>
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/burger.css">
   <!-- <link rel="stylesheet" href="css/fonts.css"> -->
   <!-- <link rel="stylesheet" href="css/vars.css"> -->
  </head>
@@ -41,10 +44,13 @@
       </nav>
       <div class="header__actions">
         <!-- Lang -->
-        <select class="header__lang" id="lang">
-          <option value="en">EN</option>
-          <option value="ru">RU</option>
-        </select>
+        <label class="header__lang">
+          <img src="assets/icons/arrow.png" alt="">
+          <select id="lang">
+            <option value="en">EN</option>
+            <option value="ru">RU</option>
+          </select>
+        </label>
         <!-- Theme -->
         <button class="header__theme" type="button" id="theme">
           <img src="assets/icons/moon.svg" alt="Moon"/>
