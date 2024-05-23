@@ -4,7 +4,7 @@
   /* border: 1px dashed red; */
 }
 
-.menu.active {
+/* .menu.active { */
   display: block;
   position: fixed;
   top: 51px;
