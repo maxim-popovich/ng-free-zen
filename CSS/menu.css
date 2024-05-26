@@ -4,13 +4,13 @@
   /* border: 1px dashed red; */
 }
 
-/* .menu.active { */
+/* .menu.active {
   display: block;
   position: fixed;
   top: 51px;
   left: 0;
   right: 0;
-}
+} */
 
 .menu__item {
   padding: 24px 15px;
