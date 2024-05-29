@@ -1,0 +1,36 @@
+.care {
+  padding: 30px 15px;
+  /* border: 2px solid red; */
+}
+
+.care__wrapper {
+  /* border: 2px solid red; */
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+/* .care__text-block {} */
+
+.care__title {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.care__copy {
+  margin-top: 20px;
+}
+
+.care__image-block {
+  height: 72vw;
+  border: 1px solid #aaa;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.care__image-block img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+}
+
