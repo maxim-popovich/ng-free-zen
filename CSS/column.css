@@ -1,0 +1,24 @@
+/* .column {
+  border: 2px solid blue;
+} */
+
+.column img {
+  width: 40px;
+  height: 40px;
+}
+
+.column__title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.column__list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.column__item {
+  margin-top: 10px;
+}
