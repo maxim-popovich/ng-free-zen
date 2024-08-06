@@ -1,36 +1,36 @@
-.warranty {
+/* care */
+.care {
   padding: 30px 15px;
-  /* border: 2px solid blue; */
+  /* border: 2px solid red; */
 }
 
-.warranty__wrapper {
+.care__wrapper {
   /* border: 2px solid red; */
   display: flex;
   gap: 30px;
   flex-direction: column;
 }
 
-/* .warranty__text-block {} */
+/* .care__text-block {} */
 
-.warranty__title {
+.care__title {
   font-size: 26px;
   font-weight: 700;
 }
 
-.warranty__copy {
+.care__copy {
   margin-top: 20px;
 }
 
-.warranty__image-block {
+.care__image-block {
   height: 72vw;
   border: 1px solid #aaa;
   border-radius: 20px;
   overflow: hidden;
 }
 
-.warranty__image-block img {
+.care__image-block img {
   display: block;
   height: 100%;
   object-fit: cover;
 }
-
